@@ -1,0 +1,1 @@
+# shchool-project
