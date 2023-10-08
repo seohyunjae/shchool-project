@@ -57,7 +57,8 @@ public class animaltrigger : MonoBehaviour
     {
         Vector3 dirToTarget =
             cat.position - animals.transform.position;
-        float dist = dirToTarget.magnitude;
+        float dist = dirToTarget.magnitude; // 벡터의 크기 또는 길이를 계산하는 메서드
+
 
         dist = Vector3.Distance(
             cat.position, animals.transform.position);
