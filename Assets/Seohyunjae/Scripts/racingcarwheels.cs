@@ -20,11 +20,11 @@ public class racingcarwheels : MonoBehaviour
 
         if (carmovement.isStopcar)
         {
-            //Debug.Log("∏ÿ√„");
+            
         }
         else
         {
-            // Debug.Log("øÚ¡˜¿”");
+            
             foreach (GameObject wheel in wheels)
             {
                 wheel.transform.Rotate(xspeed * Time.deltaTime,0, 0);

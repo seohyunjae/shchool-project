@@ -53,9 +53,7 @@ public class Catmove : MonoBehaviour
             }
           
             
-            
-            //catangleturn.transform.rotation = Quaternion.Euler(Vector3.right * 180f);
-            //Debug.Log(Quaternion.Euler(Vector3.right * dist));
+     
         }
         else
         {
