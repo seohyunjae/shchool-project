@@ -20,13 +20,13 @@ public class Noparkingsetstop : MonoBehaviour
         CalcDistanceWithTarget();
         DebugDistance();
         float dist = CalcDistanceWithTarget();
-        //Debug.Log(dist);
+       
 
         if (dist > scrPlayDist)
         {
             isStopcar = false;
             car.transform.position = Vector3.MoveTowards(car.transform.position, paths[i].transform.position, speed * Time.deltaTime);
-            //car.transform.LookAt(paths[i]);
+           
             
             if (car.transform.position == paths[i].transform.position)
             {
